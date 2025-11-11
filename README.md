@@ -4,9 +4,9 @@ Claude Code marketplace for Skill Weaver plugins - tools for creating and managi
 
 ## Latest Update
 
-**2025-11-07**: skill-creator v0.1.1-beta.1 - UX improvements beta now available! 🎉
+**2025-11-07**: weaver v0.2.0 - Renamed to avoid conflicts! 🎉
 
-This beta release makes the adaptive workflow less overwhelming based on user feedback. See [CHANGELOG.md](CHANGELOG.md) for details.
+The skill has been renamed from "skill-creator" to "weaver" to avoid conflicts with Anthropic's default "skill-builder" skill. See [CHANGELOG.md](CHANGELOG.md) for details.
 
 ## Installation
 
@@ -18,13 +18,15 @@ Add this marketplace to your Claude Code:
 
 ## Available Plugins
 
-### skill-creator v0.1.1-beta.1
+### weaver v0.2.0
 
-Creates custom Skills for Claude following official best practices.
+Weaves custom Skills for Claude following official best practices.
+
+> **Note**: Renamed from "skill-creator" to avoid conflicts with Anthropic's default "skill-builder" skill.
 
 **Install**:
 ```bash
-/plugin install skill-creator@skill-weaver-marketplace
+/plugin install weaver@skill-weaver-marketplace
 ```
 
 **Features**:
