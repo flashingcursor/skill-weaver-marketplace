@@ -5,6 +5,31 @@ All notable changes to the skill-weaver-marketplace will be documented in this f
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1] - 2025-11-07
+
+### Directory Rename
+
+The skill-weaver-marketplace now includes weaver v0.2.1 with directory renamed to fully avoid conflicts with Anthropic's default skills.
+
+#### Updated
+
+**weaver v0.2.1**
+- Renamed directory from "skill-creator/" to "weaver-create/"
+- Updated all documentation references
+- Added awareness notes about both Anthropic "skill-builder" AND "skill-creator"
+- Updated all installation paths and examples
+
+**Changes:**
+- Directory structure renamed to avoid any conflicts
+- Documentation updated throughout
+- Improved clarity on potential conflicts with Anthropic's default skills
+
+**Installation:**
+```bash
+/plugin marketplace add flashingcursor/skill-weaver-marketplace
+/plugin install weaver
+```
+
 ## [0.2.0] - 2025-11-07
 
 ### Renamed to Weaver
